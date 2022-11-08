@@ -1,5 +1,7 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
+import logo from '../../../assets/logo1.jpg'
+import '../Header/Header.css'
 
 
 const Header = () => {
@@ -7,6 +9,8 @@ const Header = () => {
     const menuItems = <>
         <li className='font-semibold'><Link to='/'>Home</Link></li>
         <li className='font-semibold'><Link to='/login'>Login</Link></li>
+        <li className='font-semibold'><Link to='/login'>Services</Link></li>
+        <li className='font-semibold'><Link to='/login'>Blogs</Link></li>
     </>
 
     return (
@@ -21,7 +25,8 @@ const Header = () => {
                     </ul>
                 </div>
                 <Link to="/" className="btn btn-ghost normal-case text-xl">
-                    <img alt="" />
+                    <img className='logo' src={logo} alt="" />
+                    <p>Oral-Optimal</p>
                 </Link>
             </div>
             <div className="navbar-center hidden lg:flex">
