@@ -1,0 +1,44 @@
+[
+    {
+        "service_id": "04",
+        "title": "Periodontal Disease",
+        "img": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQSYM9016-5isd01qeNtMsc6kg1U2SkjgPKUL3P2RIF5uQg2hNksYeU4jCxlKo7Zinwb64&usqp=CAU",
+        "price": "20.00",
+        "description": "Periodontal diseases are mainly the result of infections and inflammation of the gums and bone that surround and support the teeth. In its early stage, called gingivitis, the gums can become swollen and red, and they may bleed. The only real cure for periodontal disease is to have all of the teeth removed and replaced with a full set of implant-supported teeth. When periodontal disease is diagnosed, it cannot be reversed by medications or nonsurgical treatments."
+    },
+    {
+        "service_id": "05",
+        "title": "Broken or Chipped Tooth",
+        "img": "https://www.portobellodental.ie/wp-content/uploads/2018/05/broken-teeth-2.jpg",
+        "price": "20.00",
+        "description": "Is a broken tooth the same as a chipped tooth. In this distinction, a chipped tooth is mostly a cosmetic problemalthough it can make your tooth vulnerable to future problems. A cracked tooth, on the other hand, is a functional and health problem that needs attention quickly, because it could lead to serious complications now and in the immediate future."
+    },
+    {
+        "service_id": "01",
+        "title": "Uneven Teeth",
+        "img": "https://uploads-ssl.webflow.com/6001ef1267eb87198ffad7c9/60f9b316711cd2ef59f40f3d_AdobeStock_240571779.jpeg",
+        "price": "200.00",
+        "description": "Dental bonding allows your dentist to painlessly correct uneven or crooked teeth by applying a composite resin to the front surface of the affected teeth. Bonding, also called cosmetic bonding, is an ideal choice for closing annoying gaps between teeth, reshaping them, or even lightening discolored teeth."
+    },
+    {
+        "service_id": "02",
+        "title": "Cavities & Decay",
+        "img": "https://cdn.mos.cms.futurecdn.net/Di3nKwpvzcCD29gHpE2uL7-320-80.jpg",
+        "price": "150.00",
+        "description": "Cavities are permanently damaged areas in the hard surface of your teeth that develop into tiny openings or holes. Cavities, also called tooth decay or caries, are caused by a combination of factors, including bacteria in your mouth, frequent snacking, sipping sugary drinks and not cleaning your teeth well."
+    },
+    {
+        "service_id": "03",
+        "title": "Tooth Stains",
+        "img": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ1q5W-o0Q5f-nd5Kg0nAhoX_xCoOou94HJtA&usqp=CAU",
+        "price": "30.00",
+        "description": "Stains that appear on the surface of your teeth can usually be removed or reduced with teeth whitening products or procedures. These can be done by your dentist or you can try at-home products.Coffee, tea, dark sodas, red wine, and even a few fruits and vegetables are proven causes of discolored teeth. Tobacco: Both cigarettes and chewing tobacco can contribute to discolored teeth. Oral Care: Poor dental hygiene, such as inadequate brushing or flossing, can lead to tooth discoloration."
+    },
+    {
+        "service_id": "06",
+        "title": "Missing Teeth",
+        "img": "https://lirp.cdn-website.com/3b62c2f5/dms3rep/multi/opt/missing-tooth-woman-960w.jpg",
+        "price": "20.00",
+        "description": "Dental implants are the preferred method of replacing missing teeth. A metal post is put in place of the root, and an artificial tooth that looks and feels natural replaces the missing tooth. The process takes some time because the implant will fuse to the jawbone. Researchers estimate that as many as 20 percent of adults are born with at least one missing tooth, making hypodontia one of the most common developmental oral health conditions. Most individuals are missing only one or two permanent teeth, with very few missing more than six."
+    }
+]
