@@ -1,5 +1,5 @@
 import React, { useContext, useState } from 'react';
-import { useLocation, useNavigate } from 'react-router-dom';
+import { Link, useLocation, useNavigate } from 'react-router-dom';
 import { AuthContext } from '../../context/UserContext';
 
 const Login = () => {
@@ -80,7 +80,7 @@ const Login = () => {
                             </label>
                             <input type="text" placeholder="password" name="password" className="input input-bordered" />
                             <label className="label">
-                                <a href="#" className="label-text-alt link link-hover">Forgot password?</a>
+                                <Link to='/register' href="#" className="label-text-alt link link-hover">Don't have an account? Please Register</Link>
                             </label>
                         </div>
                         <div className="form-control mt-6">
