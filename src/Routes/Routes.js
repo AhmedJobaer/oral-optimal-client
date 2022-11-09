@@ -5,6 +5,7 @@ import Services from "../Pages/Home/Services/Services";
 import Login from "../Pages/Login/Login";
 import Review from "../Pages/Review/Review";
 import Register from "../Register/Register";
+import PrivateRoute from "./PrivateRoute";
 
 const { createBrowserRouter } = require("react-router-dom");
 
@@ -19,7 +20,7 @@ const router = createBrowserRouter([
             },
             {
                 path: '/services',
-                element: <Services></Services>
+                element: <PrivateRoute><Services></Services></PrivateRoute>
             },
             {
                 path: '/login',

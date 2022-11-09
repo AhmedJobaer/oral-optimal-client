@@ -75,7 +75,7 @@ const Register = () => {
     }
     return (
         <div className="hero min-h-screen bg-base-200">
-            <from className="hero-content flex-col lg:flex-row-reverse">
+            <form onSubmit={handelRegister} className="hero-content flex-col lg:flex-row-reverse">
                 <div className="text-center lg:text-left">
                     <h1 className="text-5xl font-bold">Register now!</h1>
                     <p className="py-6">Provident cupiditate voluptatem et in. Quaerat fugiat ut assumenda excepturi exercitationem quasi. In deleniti eaque aut repudiandae et a id nisi.</p>
@@ -104,11 +104,11 @@ const Register = () => {
                             </label>
                         </div>
                         <div className="form-control mt-6">
-                            <button onSubmit={handelRegister} type='submit' className="btn btn-primary">Register</button>
+                            <button type='submit' className="btn btn-primary">Register</button>
                         </div>
                     </div>
                 </div>
-            </from>
+            </form>
         </div>
     );
 };
