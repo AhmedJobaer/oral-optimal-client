@@ -24,6 +24,7 @@ const Header = () => {
         <li className='font-semibold'><Link to='/login'>Login</Link></li>
         <li className='font-semibold'><Link to='/services'>Services</Link></li>
         <li className='font-semibold'><Link to='/login'>Blogs</Link></li>
+        <li className='font-semibold'><Link to='/addServices'>Add Services</Link></li>
     </>
     const signOut = <>
         <li className='font-semibold'><Link to='/login'>SignOut</Link></li>
