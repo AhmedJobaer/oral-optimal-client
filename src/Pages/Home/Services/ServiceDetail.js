@@ -14,6 +14,11 @@ const ServiceDetail = () => {
                         <p>{description}</p>
                         <Link>
                             <button className="btn btn-primary">Make Appoinment</button>
+
+                        </Link>
+                        <Link to={`/addReview/${_id}`}>
+
+                            <button className="btn btn-primary ml-1">Add Review</button>
                         </Link>
                     </div>
                 </div>
