@@ -21,7 +21,7 @@ const AddServices = () => {
             price
         }
 
-        fetch('https://b6a11-service-review-server-side-ahmed-jobaer.vercel.app/addServices', {
+        fetch('https://oral-optimal-server.vercel.app/addServices', {
             method: 'POST',
             headers: {
                 'content-type': 'application/json'

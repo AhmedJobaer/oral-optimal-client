@@ -7,7 +7,7 @@ const ServiceDetail = () => {
     const [review, setReview] = useState([])
 
     useEffect(() => {
-        fetch(`https://b6a11-service-review-server-side-ahmed-jobaer.vercel.app/serviceReview?serviceId=${_id}`)
+        fetch(`https://oral-optimal-server.vercel.app/serviceReview?serviceId=${_id}`)
             .then(res => res.json())
             .then(data => setReview(data))
     }, [_id])

@@ -9,7 +9,7 @@ const Home = () => {
 
     const [services, setServices] = useState([]);
     useEffect(() => {
-        fetch('https://b6a11-service-review-server-side-ahmed-jobaer.vercel.app/servicesHome')
+        fetch('https://oral-optimal-server.vercel.app/servicesHome')
             .then(res => res.json())
             .then(data => setServices(data))
     }, [])

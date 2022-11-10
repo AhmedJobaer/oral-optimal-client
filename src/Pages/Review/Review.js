@@ -21,7 +21,7 @@ const Review = () => {
             comment: review
         }
 
-        fetch('https://b6a11-service-review-server-side-ahmed-jobaer.vercel.app/addReview', {
+        fetch('https://oral-optimal-server.vercel.app/addReview', {
             method: 'POST',
             headers: {
                 'content-type': 'application/json'
