@@ -5,8 +5,6 @@ import { AuthContext } from '../../context/UserContext';
 const Review = () => {
     const user = useLoaderData();
     const u = useContext(AuthContext);
-    console.log(user._id);
-    console.log(u.user.email);
 
     const handelReview = event => {
         event.preventDefault();

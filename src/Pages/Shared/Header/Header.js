@@ -8,7 +8,7 @@ import '../Header/Header.css'
 const Header = () => {
 
     const { user, logOut } = useContext(AuthContext);
-    console.log(user);
+
 
     const handelSignOut = () => {
         logOut()
@@ -26,9 +26,7 @@ const Header = () => {
         <li className='font-semibold'><Link to='/login'>Blogs</Link></li>
         <li className='font-semibold'><Link to='/addServices'>Add Services</Link></li>
     </>
-    const signOut = <>
-        <li className='font-semibold'><Link to='/login'>SignOut</Link></li>
-    </>
+
 
     return (
         <div className="navbar h-20 mb-4  bg-base-100">
@@ -51,18 +49,25 @@ const Header = () => {
                     {menuItems}
                 </ul>
             </div>
-            {
-                user?.uid ?
-                    <div>
-                        <button onClick={handelSignOut}>LogOut</button>
+
+            <div className="dropdown dropdown-end">
+                <label tabIndex={0} className="btn btn-ghost btn-circle avatar">
+                    <div className="w-10 rounded-full">
+                        <img src={user?.uid?.photoURL} />
                     </div>
-                    :
-                    <Link to='/login'>Login</Link>
-            }
-            <div className="navbar-end">
-                <div className="w-8 ">
-                    <img className='rounded-xl' alt='' src="https://placeimg.com/192/192/people" />
-                </div>
+                </label>
+                <ul tabIndex={0} className="menu menu-compact dropdown-content mt-3 p-2 shadow bg-base-100 rounded-box w-52">
+
+                    {
+                        user?.uid ?
+                            <div>
+                                <li className='btn btn-ghost'>{user.displayName}</li>
+                                <li className='btn btn-ghost' onClick={handelSignOut}>LogOut</li>
+                            </div>
+                            :
+                            <li><Link className='btn btn-ghost' to='/login'>Login</Link></li>
+                    }
+                </ul>
             </div>
         </div>
     );
