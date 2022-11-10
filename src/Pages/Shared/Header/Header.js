@@ -60,7 +60,9 @@ const Header = () => {
                     <Link to='/login'>Login</Link>
             }
             <div className="navbar-end">
-                <button className="btn btn-outline btn-success">Review</button>
+                <div className="w-8 ">
+                    <img className='rounded-xl' alt='' src="https://placeimg.com/192/192/people" />
+                </div>
             </div>
         </div>
     );

@@ -5,7 +5,7 @@ import { AuthContext } from '../../context/UserContext';
 const Login = () => {
 
 
-    const { signIn, signInWithGoogle, signInWiGithub } = useContext(AuthContext);
+    const { signIn, signInWithGoogle } = useContext(AuthContext);
     const [error, setError] = useState();
     const navigate = useNavigate();
 
@@ -45,18 +45,7 @@ const Login = () => {
             })
     }
 
-    const handelGithubSignIn = () => {
-        signInWiGithub()
-            .then(result => {
-                const user = result.user;
-                navigate(from, { replace: true });
-                console.log(user);
-            })
-            .catch(error => {
-                setError(error.message);
-                console.error(error)
-            })
-    }
+
 
 
     return (

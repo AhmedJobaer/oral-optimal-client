@@ -15,7 +15,6 @@ const UserContext = ({ children }) => {
     const [user, setUser] = useState({});
     const [loading, setLoading] = useState(true);
     const googleProvider = new GoogleAuthProvider();
-    const githubProvider = new GithubAuthProvider();
 
     const createUser = (email, password) => {
         setLoading(true);
@@ -36,10 +35,7 @@ const UserContext = ({ children }) => {
         return signInWithPopup(auth, googleProvider);
     }
 
-    const signInWiGithub = () => {
-        setLoading(true);
-        return signInWithPopup(auth, githubProvider)
-    }
+
 
     const logOut = () => {
         setLoading(true);
@@ -59,7 +55,7 @@ const UserContext = ({ children }) => {
 
     }, [])
 
-    const authInfo = { user, createUser, signIn, logOut, signInWithGoogle, signInWiGithub, loading, updateUserProfile };
+    const authInfo = { user, createUser, signIn, logOut, signInWithGoogle, loading, updateUserProfile };
 
     return (
         <AuthContext.Provider value={authInfo}>

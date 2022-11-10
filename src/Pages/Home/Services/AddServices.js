@@ -2,41 +2,7 @@ import React from 'react';
 
 const AddServices = () => {
 
-    /*  const handleAddService = (e) => {
-         e.preventDefault();
-         const form = e.target;
-         const name = form.name.value;
-         const url = form.url.value;
-         const description = form.description.value;
-         const price = form.price.value;
- 
-         console.log(name,url,price,description);
- 
-         const service = {
-             service:name,
-             img: url,
-             description,
-             price
- 
-             
-         }
- 
-         fetch('http://localhost:5000/add-service', {
-             method: 'POST',
-             headers: {
-                 'content-type': 'application/json'
-             },
-             body: JSON.stringify(service)
-         })
-             .then(res => res.json())
-             .then(data => {
-                 alert("successfully added");
-                 form.reset();
-             })
-             .catch(er => console.log(er))
- 
-     }
-  */
+
 
     const handleAddService = (event) => {
         event.preventDefault();
