@@ -48,13 +48,24 @@ const Home = () => {
 
             <div className="hero h-96 ">
                 <div className="hero-content flex-col lg:flex-row">
-                    <img src="https://placeimg.com/260/400/arch" className="max-w-sm rounded-lg shadow-2xl" />
+                    <img alt='' src="https://assets.lybrate.com/img/documents/doctor/dp/f9d7ffaf69292d4e9579bbbb50978c81/Dentistry-RinkiAggarwal-Delhi-9d3e03" className="max-w-sm rounded-lg shadow-2xl" />
                     <div>
-                        <h1 className="text-5xl font-bold">Box Office News!</h1>
-                        <p className="py-6">Provident cupiditate voluptatem et in. Quaerat fugiat ut assumenda excepturi exercitationem quasi. In deleniti eaque aut repudiandae et a id nisi.</p>
+                        <h1 className="text-5xl font-bold">
+                            Dr.Rinki Aggarwal</h1>
+                        <p className="py-6">I'm dedicated to providing optimal health care in a relaxed environment where I treat every patients as if they were my own family. Dr. Rinki Aggarwal is one of the best Dentists in Patparganj, Delhi. She has been a practicing Dentist for 10 years. She has completed BDS, PGDHHM . You can visit her at Aditya Dental Clinic in Patparganj, Delhi. Book an appointment online with Dr. Rinki Aggarwal on Lybrate.com.</p>
                         <button className="btn btn-primary">Get Started</button>
                     </div>
                 </div>
+            </div>
+
+            <div className='text-center'>
+                <h2 className="text-2xl text-center mb-4 font-bold text-orange-600">My Services Process</h2>
+                <ul className="steps steps-vertical">
+                    <li className="step step-primary">Register</li>
+                    <li className="step step-primary">Choose Service</li>
+                    <li className="step">Make appointment</li>
+                    <li className="step">Add Review</li>
+                </ul>
             </div>
 
             <h2 className="text-2xl text-center mb-4 font-bold text-orange-600">My Services</h2>
