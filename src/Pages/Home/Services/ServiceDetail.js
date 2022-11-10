@@ -22,7 +22,7 @@ const ServiceDetail = () => {
                     <div className="card-actions justify-end">
                         <p>{description}</p>
                         <Link>
-                            <button className="btn btn-primary">Make Appoinment</button>
+                            <button className="btn btn-primary">Make Appointment</button>
 
                         </Link>
                         <Link to={`/addReview/${_id}`}>

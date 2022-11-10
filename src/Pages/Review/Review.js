@@ -1,5 +1,5 @@
 import React, { useContext } from 'react';
-import { useLoaderData } from 'react-router-dom';
+import { Link, useLoaderData } from 'react-router-dom';
 import { AuthContext } from '../../context/UserContext';
 
 const Review = () => {
@@ -66,7 +66,7 @@ const Review = () => {
                             <button type='submit' className="btn btn-primary">Add review</button>
                         </div>
                     </form>
-
+                    <Link to='/myReview'><button type='submit' className="btn btn-primary w-full">MY review</button></Link>
                 </div>
             </div>
         </div>

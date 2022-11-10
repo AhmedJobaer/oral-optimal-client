@@ -46,6 +46,17 @@ const Home = () => {
                 </div>
             </div>
 
+            <div className="hero h-96 ">
+                <div className="hero-content flex-col lg:flex-row">
+                    <img src="https://placeimg.com/260/400/arch" className="max-w-sm rounded-lg shadow-2xl" />
+                    <div>
+                        <h1 className="text-5xl font-bold">Box Office News!</h1>
+                        <p className="py-6">Provident cupiditate voluptatem et in. Quaerat fugiat ut assumenda excepturi exercitationem quasi. In deleniti eaque aut repudiandae et a id nisi.</p>
+                        <button className="btn btn-primary">Get Started</button>
+                    </div>
+                </div>
+            </div>
+
             <h2 className="text-2xl text-center mb-4 font-bold text-orange-600">My Services</h2>
             <div className='grid gap-6 grid-cols-1 md:grid-cols-2 lg:grid-cols-3'>
                 {
